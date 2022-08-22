@@ -35,7 +35,7 @@ metadata:
     component: parksmap
     role: frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: parksmap
